@@ -12,7 +12,7 @@ hands = mp_hands.Hands(
     min_tracking_confidence=0.5)
 
 # load gambar tangan
-img = cv2.imread('./res/human-hands-front-back.jpg',cv2.IMREAD_COLOR)
+img = cv2.imread('./res/fist_square.jpg',cv2.IMREAD_COLOR)
 img = cv2.cvtColor(img,cv2.COLOR_BGR2RGB) # konversi warna ke RGB
 
 # proses gambar
